@@ -1,0 +1,821 @@
+// solve _problem.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main()
+{
+ //the porblem #1
+
+          /*cout << "Fathi:\n";*/
+
+//the porblem #2
+
+         /* string nameofuser;
+            cout << "enter your name please:\n";
+            cin >> nameofuser;
+            cout << "your name is "+nameofuser+"\n" ;*/
+
+ //the porblem #3
+
+                 /*  cout << "Please Enter the Number ?\n";
+                 int Number;
+                   cin >> Number;
+                   if (Number%2==0)
+
+                   {
+                       cout << "This is number even  "+Number;
+                   }
+                   else {
+
+                       cout << "This is number odd " + Number;
+                       }*/
+
+
+
+ //the porblem #4
+
+      /*       cout << "Please enter Your Age?\n";
+                int Age;
+                cin >> Age;
+                cout << "Do have Driver License ? \n pleese choice 1 or 0\n";
+                 bool yesorno;
+               cin >> yesorno;
+                 if (Age >= 21 && yesorno == 1) {
+
+                     cout<<"Hired";
+                                  }
+                   else {
+
+                             cout << "Rejected";
+                     }*/
+
+ //the porblem #5
+
+       /*     cout << "Do have  Recommendiation ? \n pleese choice 1 or 0\n";
+            bool Recom;
+            cin >> Recom;
+            cout << "Please enter Your Age?\n";
+            int Age;
+            cin >> Age;
+            cout << "Do have Driver License ? \n pleese choice 1 or 0\n";
+            bool yesorno;
+            cin >> yesorno;
+
+            if (Recom == 1) {
+                cout << "Hired";
+            }
+            else if (Age >= 21 && yesorno == 1) {
+
+
+                    cout << "Hired";
+                }
+                else {
+
+                    cout << "Rejected";
+                }
+                */
+
+  //the porblem #6
+
+  /*      cout << "enter your fristname  please...\n";
+        string Firstname;
+        cin >> Firstname;
+        cout << "enter your fristname  please...\n";
+        string Lastname;
+        cin >> Lastname;
+
+        string Allname = Firstname + " " + Lastname;
+
+        cout << Allname + "\n";
+        */
+ //the porblem #7
+
+    //cout << "pleae enter your name?\n";
+    //double number;
+    //cin >> number;
+    //double Halfnumber = number / 2;
+    //cout << " Half of   " << number << " is " << Halfnumber;
+    
+
+ //the porblem #8
+
+        //double Mark;
+        //cout << "enter  marke please  \n";
+        //    cin >> Mark;
+        //    if (Mark >=50) {
+
+        //        cout << " Pass";
+        //    
+        //    }
+        //    else {
+        //        cout << "Fail";
+
+        //    }
+
+//the porblem #9
+
+/*
+        double mark1, mark2, mark3;
+
+        cout << "plese enter the mark1 \n ";
+        cin >> mark1;
+        cout << "plese enter the mark2 \n";
+        cin >> mark2;
+        cout << "plese enter the mark3 \n";
+        cin >> mark3;
+        double Average=(mark1+mark2+mark3)/3;
+
+        cout << "Average = "<<Average;
+        */
+
+
+//the porblem #10
+       /*
+        double mark1, mark2, mark3;
+
+        cout << "plese enter the mark1 \n ";
+        cin >> mark1;
+        cout << "plese enter the mark2 \n";
+        cin >> mark2;
+        cout << "plese enter the mark3 \n";
+        cin >> mark3;
+        double Average = (mark1 + mark2 + mark3) / 3;
+        if(Average>=50){
+        
+            cout << " Pass  "<<Average;
+        }
+        else {
+
+            cout << "Fail  "<<Average;
+                                                */
+
+//the porblem #11
+
+       /* int  number1, number2;
+        cout << "plese enter the number1\n";
+        cin >> number1;
+        cout << "please enter the number2\n";
+        cin >> number2;
+        if (number1 > number2) {
+
+            cout << "Max " << number1;
+
+        }
+        else {
+
+            cout << "Max " << number2;
+
+        }*/
+
+ //the porblem #12
+   /*      int  A, B ,C;
+            cout << "plese enter the number1\n";
+            cin >> A;
+            cout << "please enter the number2\n";
+            cin >> B;
+            cout << "please enter the number2\n";
+            cin >> C;
+            if (A> B && A>C) {
+
+                cout << "Max " << A;
+
+            }
+            else if (B>C && B>A) {
+
+                cout << "Max " << B;
+
+            }
+            else if (C>B && C>A) {
+
+                cout << "Max " << C;
+
+            }*/
+
+//the porblem #13
+
+        /*int Number1 ,Number2;
+        cout << "enter number1\n";
+        cin >> Number1;
+        cout << "enter number2\n";
+        cin >> Number2;
+
+        int swp = Number1;
+
+         Number1 = Number2;
+         Number2 = swp;
+         cout << Number1 << "\n" << Number2;*/
+
+ //the porblem #14
+
+    /*    double a,b, Area;
+        cout << "please enter A \n";
+        cin >> a;
+
+        cout << "please enter B \n";
+        cin >> b;
+        Area = a + b;
+        cout << " The Area  " << Area;*/
+
+
+//the porblem #15
+        /*
+        double a, d, Area;
+        cout << "Enter the value of a:\n";
+        cin >> a;
+        cout << "Enter the value of d: \n";
+        cin >> d;
+        Area = a*sqrt(pow (d,2) - pow(a,2));
+        cout << " The area is:  " << Area;
+        */
+
+
+//the porblem #16
+
+        /*const double  PI = 3.14;
+        cout << "Enter the value of r: ";
+        double r;
+        cin >> r;
+
+        double Area = PI * pow(r, 2);
+        cout << "The area is:  " << Area;
+        */
+
+ //the porblem #17
+
+  /*      double D, Area;
+        const double PI=3.14;
+        cout << "Enter the value of : ";
+        cin >> D;
+        Area = PI * pow(D,2) / 4;
+        cout << "The area is : " << Area;
+        
+  */
+
+//the porblem #18 
+
+       /* double A, Area;
+        const double PI = 3.14;
+        cout << "Enter the value of : ";
+        cin >> A;
+        Area = PI * pow(A, 2) / 4;
+        cout << "The area is : " << Area;
+
+*/
+//the porblem #19
+
+        /*double L, Area;
+        const double PI = 3.14;
+        cout << "Enter the value of : ";
+        cin >> L;
+        Area =pow(L, 2)/(PI* 4);
+        cout << "The area is : " << Area;*/
+        
+ //the porblem #20
+
+        /*double a,b, Area;
+        const double PI = 3.14;
+        cout << "Enter the value of : ";
+        cin >> a;
+        cout << "Enter the value of : ";
+        cin >> b;
+        Area = PI* (pow(b, 2)/4)*(2*a-b)/(2*a+b);
+        cout << "The area is : " << Area;
+                }*/
+
+//the porblem #21
+
+ /*    double a, b, c, p, T,R, Area;
+        const double  PI = 3.14;
+        cout << "Enter the value of a : ";
+        cin >> a;
+        cout << "Enter the value of b : ";
+        cin >> b;
+        cout << "Enter the value of c : ";
+        cin >> c;
+        p = a + b + c / 2;
+        T = (a * b * c) / (4 * sqrt(p * ((p - a) * (p - b) * (p - c))));
+        R= T * T;
+        Area = PI * R;
+        cout << "The area is : " << Area;
+        */
+  
+//the porblem #22
+
+
+        /*int Age;
+        cout << "Enter your age : ";
+        cin >> Age;
+        if (Age >= 18 and Age <= 45) {
+
+            cout << "Valid Age";
+        }
+        else {
+            cout << "Invalid Age ";
+
+        }*/
+
+
+ //the porblem #23
+
+
+        /*int Age;
+        while (true)
+        {
+
+
+        cout << "Enter your age : ";
+        cin >> Age;
+        if (Age >= 18 and Age <= 45) {
+
+            cout << "Valid Age\n";
+            break;
+        }
+        else {
+            cout << "Invalid Age \n";
+
+        }
+        }*/
+
+ //the porblem #24
+
+        /*int number;
+        cout << "please enter the number :";
+        cin >> number;
+        for (size_t i = 1; i <= number; i++)
+        {
+            cout << i<<"\n";
+        }
+*/
+
+//the porblem #25
+        /*cout << "Enter the Number :";
+        int number;
+        cin >> number;
+        for (int i =10; i >=1; i--)
+        {
+            cout << i << "\n";
+        }*/
+
+ //the porblem #26
+
+         /*cout << "Enter the Number :";
+         int number;
+         int sumodd{};
+                cin >> number;
+                for (int i = 1; i <=10; i++)
+                {
+                    if (i%2!= 0) {
+
+                        sumodd =sumodd+i;
+
+                
+                    }
+          
+                }
+                cout << sumodd << "\n";*/
+
+
+ //the porblem #27
+                /*cout << "Enter the Number :";
+                int number;
+                int sumeven{};
+                cin >> number;
+                for (int i = 1; i <= number; i++)
+                {
+                    if (i % 2== 0) {
+
+                        sumeven = sumeven + i;
+
+
+                    }
+
+                }
+                cout << sumeven << "\n";*/
+
+
+ //the porblem #28
+        /*cout << "Enter a positive integer: ";
+        int number;
+        int factor =1;
+        cin >> number;
+        if (number > 0) {
+            for (int i = 1; i <= number; i++)
+            {
+                factor *= i;
+
+            }
+            cout << factor << "\n";
+        }
+        else {
+    
+            cout << "Factorial is not defined for negative numbers.";
+        }*/
+ //the porblem #29
+    /*cout << "Enter the number :";
+    int number;
+    cin >> number;
+    cout << pow(number, 2) <<"\n" << pow(number, 3) << "\n" << pow(number, 4);*/
+
+ //the porblem #30
+
+       /* cout << "Enter the number please : ";
+
+        int number , power , Result;
+        cin>> number;
+        cout << "Enter the power please : ";
+        cin >> power;
+        Result=pow(number, power);
+        cout << "the  Result :" << Result;*/
+
+//the porblem #31
+        //int  Grade;
+        //cout << "Enter the Grade : ";
+        //cin >> Grade;
+        //if (Grade <= 100 and Grade >= 90) {
+        //    cout << "A";
+        //}
+        //else if (Grade <= 89 && Grade >= 80)
+        //{
+        //    cout << "B";
+
+        //}
+        //else if (Grade <= 79 && Grade >= 70)
+        //{
+        //    cout << "B";
+        //}
+        //else if (Grade <= 69 && Grade >= 60) {
+        //    cout << "C";
+
+        //}
+        //else if (Grade <= 59 and Grade >= 50) {
+        //    cout << "D";
+
+        //}
+        //else {
+        //    cout << "F";
+ 
+         //}}
+
+
+//the porblem #32
+
+            /*int TotalSalse;
+            cout << "Enter the TotalSalse";
+            cin >> TotalSalse;
+            if (TotalSalse > 1000000) {
+
+                cout << "Precentagre is : " << TotalSalse * 0.01;
+
+            }
+            else if (TotalSalse <= 1000000 and TotalSalse >= 500000) {
+
+                cout << "Precentagre is : " << TotalSalse * 0.02;
+            }
+            else if (TotalSalse <= 500000 and TotalSalse >= 10000) {
+
+                cout << "Precentagre is : " << TotalSalse * 0.03;
+            }
+            else if (TotalSalse < 100 and TotalSalse >= 50) {
+
+                cout << "Precentagre is : " << TotalSalse * 0.05;
+            }
+            else {
+
+
+
+                cout << "Precentagre is : " << TotalSalse * 0;
+            }*/
+
+    
+
+
+ //the porblem #33
+          /*  double Penny, Nickels, Dimes, Quarters, Dollars,TotallPennies, TotallDollarts;
+            cout << "How many you have Pennies?\n";
+            cin >> Penny;
+            cout << "How many you have Nickels?\n";
+            cin >> Nickels;
+            cout << "How many you have Dimes?\n";
+            cin>>Dimes;
+            cout << "How many you have Quarters?\n";
+            cin >> Quarters;
+            cout << "How many you have Dollars?\n";
+            cin >> Dollars;
+            TotallPennies = Penny * 1 + Nickels * 5 + Dimes * 10 + Quarters * 25 + Dollars * 100;
+            TotallDollarts = TotallPennies / 100;
+            cout << "Totall of Pennies :"<<TotallPennies<<+"\n"<<"Totall of Dollars : "<<TotallDollarts;*/
+
+
+  //the porblem #34
+
+            /*int number1 ,number2 , sum;
+            cout << "enter the number1 :";
+            cin >> number1;
+            cout << "enter the number2 :";
+            cin>> number2;
+            cout << "enter the type of opreation + or - or * or  / \n";
+            string opreation;
+            cin >> opreation;
+            if (opreation=="+")
+            {
+                sum = number1 + number2;
+                cout << sum;
+            }
+            else if (opreation=="-") {
+
+                sum = number1 - number2;
+                cout << sum;
+            }else if (opreation=="*") {
+
+                sum = number1 * number2;
+                cout << sum;
+            }else if (opreation=="/") {
+
+                sum = number1 / number2;
+                cout << sum;
+            }
+            else {
+
+                cout << "you have error";
+            }*/
+
+
+ //the porblem #35
+
+            /*int number, sum = 0;
+            while (true)
+            {
+                cout << "enter the value :";
+                cin >> number;
+                if (number == -99) {
+
+                    break;
+                }
+                else{
+       
+
+        
+                    sum = number + sum;
+
+
+
+                }
+
+            }
+            cout << sum;*/
+
+
+//the porblem #36
+            /*cout << "enter the number :";
+
+            int number;
+            for (size_t i =1; i <= 3; i++) {
+                cin >> number;
+                if (number > 0) {
+
+                    for (size_t i = 2; i <= number ; i++)
+                    {
+
+                        if (number % i == 0) {
+
+                            cout << "Not Prime\n";
+                            break;
+                        }
+                        else {
+                            cout << "prime\n";
+                            break;
+
+                        }
+                    }
+                }
+            }*/
+
+
+
+//the porblem #37
+
+           /* int Remainder, Cashpaid, TotalBill;
+            cout << "inter  the Cashpaid :\n";
+   
+                cin >> Cashpaid;
+                cout << "inter  the TotalBill :\n";
+                cin >> TotalBill;
+
+            Remainder = Cashpaid - TotalBill;
+            cout << Remainder;*/
+
+//the porblem #38
+     /*int Billvalue, TotalBill;
+            cout << "inter  the Billvalue :\n";
+
+            cin >> Billvalue;
+      
+            TotalBill = Billvalue*1.1;
+            TotalBill = TotalBill  * 1.16;
+            cout << TotalBill;
+            */
+
+//the porblem #39
+            //cout << "Enter the number of hours: \n";
+            //double numberday, weeks,days;
+            //cin >> numberday;
+            //days = numberday / 24;
+            //weeks = days / 7;
+
+            //cout << "week : "<<weeks <<"\n"<<"Days :"<<days;
+
+
+//the porblem #39
+
+            /*cout << "Enter the number of days: \n"; 
+            double days, hours,minutes,seconds,allseconds;
+            cin >> days;
+            cout << "Enter the number of hours: \n";
+            cin >> hours;
+            cout << "Enter the number of minutes: \n";
+            cin >> minutes;
+            cout << "Enter the number of seconds: \n";
+            cin >> seconds;
+         
+                    allseconds = (days *(24*60*60))+(hours*(60*60))+(minutes*60)+seconds;
+
+                  cout << " "<< allseconds <<"seconds\n";*/
+
+
+
+//the problem #40
+
+           //   cout << "Enter the number of Seconds: \n";
+           // double  TotalSeconde, Numberofday, Secondeshoures;
+           // double Secondesminutes,Remainder, Secondesperday,numbrofhoures, numberofseconds, numberofminutes;
+           // cin >> TotalSeconde;
+           // Secondesperday = 86400;
+           // Secondeshoures = 3600;
+           // Secondesminutes = 60;
+           // //day
+           // Numberofday = floor(TotalSeconde / Secondesperday);
+           // Remainder = fmod(TotalSeconde, Secondesperday);
+           // //hourse
+           // numbrofhoures = floor(TotalSeconde / Secondeshoures);
+           // Remainder = fmod(Remainder, Secondeshoures);
+           // //minutes
+
+           // numberofminutes = floor(TotalSeconde / Secondesminutes);
+           // Remainder = fmod(Remainder, Secondesminutes);
+
+           // //Seconde
+           // numberofseconds = Remainder;
+           //cout << " " << Numberofday <<":" << numbrofhoures << ":" << numberofminutes << ":" << numberofseconds <<"   seconds\n";
+
+
+
+
+
+//the problem #41
+ /*   cout << "enter the number of day:";
+    int day;
+    cin >> day;
+    if (day > 0 and day <= 7) {
+
+        if (day == 1) {
+
+            cout << "Saturday";
+
+        }
+        else if (day == 2) {
+            cout << "Sunday";
+
+        }
+        else if (day == 3) {
+            cout << "Monday";
+
+        }
+        else if (day == 4) {
+            cout << "Tuesday";
+
+        }
+        else if (day == 5) {
+            cout << "Wednesday:";
+
+        }
+        else if (day == 6) {
+            cout << "Thursday";
+
+        }
+        else if (day == 7) {
+            cout << "Friday";
+
+
+
+        }
+
+    }*/
+ //the problem #42
+    /*    cout << "enter the number of Month:";
+        int Month;
+        cin >> Month;
+        if (Month > 0 and Month <= 12) {
+
+            if (Month == 1) {
+
+                cout << "January";
+
+            }
+            else if (Month == 2) {
+                cout << "February";
+
+            }
+            else if (Month == 3) {
+                cout << "March";
+
+            }
+            else if (Month == 4) {
+                cout << "April";
+
+            }
+            else if (Month == 5) {
+                cout << "May:";
+
+            }
+            else if (Month == 6) {
+                cout << " June";
+
+            }
+            else if (Month == 7) {
+                cout << "July";
+
+
+
+            }  else if (Month == 8) {
+                cout << "August";
+
+
+
+            }  else if (Month == 9) {
+                cout << "September";
+
+
+
+            }  else if (Month == 10) {
+                cout << "October";
+
+
+
+            }
+            else if (Month == 11) {
+                cout << "November";
+
+
+
+            }
+            else if (Month == 12) {
+                cout << "December";
+
+
+
+            }
+
+        }
+        else {
+
+
+            cout << "error";
+        }
+
+
+        */
+
+//the problem #43 A...Z
+
+        //for (size_t i =64; i <=90; i++)
+        //{
+        //    cout << char(i)<<"\n";
+        //}
+
+//the problem #43
+
+
+
+
+
+}
+
+  
+   
+           
+    
+        
+     
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Debug program: F5 or Debug > Start Debugging menu
+
+// Tips for Getting Started: 
+//   1. Use the Solution Explorer window to add/manage files
+//   2. Use the Team Explorer window to connect to source control
+//   3. Use the window to see build output and other messages
+//   4. Use the Error List window to view errors
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
